@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Calculator</title>
+</head>
+<body>
+    <main>
+        <h1>Attendance Calculator</h1>
+        <div class="form-container">
+            <form>
+                <ul>
+                    <li>
+                        <label for="Attendance">Attendance % You Want:</label>
+                        <input id="Attendance" type="text" value="0">
+                    </li>
+                    <li>
+                        <label for="total_lectures">Total Lectures:</label>
+                        <input id="total_lectures" type="text" value="0">
+                    </li>
+                    <li>
+                        <label for="absent_lectures">Absent Lectures:</label>
+                        <input id="absent_lectures" type="text" value="0">
+                    </li>
+                </ul>
+                <div class="button">
+                    <button type="submit" id="button" >Show</button>
+                </div>
+                <a style="text-align: center;" href="erp.psit.ac.in">Visit ERP</a>
+            </form>
+        </div>
+
+        <div class="output-text"><p>Lectures You Need To Attend:<span id="output1">0</span></p></div>
+        <div class="output-text"><p>Days You Need To Attend:<span id="output2">0</span></p></div>
+        <footer>All copyrights & copy are reserved by Harsh Mishra</footer>
+        <script src="./script.js"></script>
+    </main>
+</body>
+</html>
